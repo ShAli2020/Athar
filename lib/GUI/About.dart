@@ -62,61 +62,30 @@ class AboutState extends State<About> {
                 new Expanded(
                     child: new ListView(
                       children:[
-                       Container(
-                          margin:   EdgeInsets.all(7.0),
-                          width:370,
-                          height: 126,
-                         decoration: BoxDecoration(
-                             color: Color(0xff1F2932),
-                             boxShadow: [BoxShadow(
-                                 offset: Offset(2,4),
-                                 color: Colors.black45,
-                                 blurRadius: 5
-                               )]
-                         ),
-                          child:Row(mainAxisSize: MainAxisSize.max,
-                              children: [
-                           Expanded(child: Container(height: 126,width: 15,
-                          color:Color(0xffFFA500),
-                                
-                                            ),
-                                            ),
-                             
-                                Container(height: 126,width: 202,
-                                  child: Center(
-                                    child: ListTile(
-                                contentPadding: EdgeInsets.only(
-                                      top: 5, right: 10, bottom: 5, left: 12),
-                                title: Text(
-                                    "Muhammed Essa",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 18,
-                                      //fontWeight: FontWeight.bold
-                                    ),
-                                    textAlign: TextAlign.left,
-                                    textDirection: TextDirection.ltr,
-                                ),
-                                subtitle: Padding(
-                                padding: const EdgeInsets.only(top:8.0),
-                                  child: Text('Manager of Code for Iraq',
-                               textAlign: TextAlign.left,
-                                   style: TextStyle(
-                                        color: Colors.white,    ), ),
-                                ),),
-                                  ),),
-
-                             Container(height: 126,width: 126,
-                                  decoration: BoxDecoration(
-                                    image:DecorationImage(
-                          image: AssetImage("asset/mohamad.jpg"), fit: BoxFit.cover),
-                                               ),
-                                 ),
-                             ]),
-                            ),
+                         new Container(
+                        margin: EdgeInsets.only(right: 10,left: 10,top:10,bottom: 10   ),
+                   child: new Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: new Divider(
+                          indent: (10),
+                        ),
+                      ),
+                       Padding(
+                        padding: const EdgeInsets.only(right:5.0),
+                         child: Text("Manager",
+                            style: TextStyle(
+                              fontSize: 18,
+                            )),
+                       ),
+                    ],
+                  ),
+                
+                ),
+                      
                               Container(
-                          margin:   EdgeInsets.all(7.0),
-                          width:370,
+                           margin: EdgeInsets.only(right: 10,left: 10 ,top:7,bottom: 7 ),
+                          width:360,
                           height: 126,
                            decoration: BoxDecoration(
                              color: Color(0xff1F2932),
@@ -138,7 +107,7 @@ class AboutState extends State<About> {
                                 contentPadding: EdgeInsets.only(
                                       top: 5, right: 10, bottom: 5, left: 12),
                                 title: Text(
-                                    "Taha Ammar",
+                                    "الصباغ:Taha Ammar",
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 18,
@@ -166,8 +135,130 @@ class AboutState extends State<About> {
                              ]),
                             ),
                              Container(
-                          margin:   EdgeInsets.all(7.0),
-                          width:370,
+                           margin: EdgeInsets.only(right: 10,left: 10 ,top:7,bottom: 7 ),
+                          width:360,
+                          height: 126,
+                         decoration: BoxDecoration(
+                             color: Color(0xff1F2932),
+                             boxShadow: [BoxShadow(
+                                 offset: Offset(2,4),
+                                 color: Colors.black45,
+                                 blurRadius: 5
+                               )]
+                         ),
+                          child:Row(mainAxisSize: MainAxisSize.max,
+                              children: [
+                           Expanded(child: Container(height: 126,width: 15,
+                          color:Color(0xffFFA500),
+                                
+                                            ),
+                                            ),
+                             
+                                Container(height: 126,width: 202,
+                                  child: Center(
+                                    child: ListTile(
+                                contentPadding: EdgeInsets.only(
+                                      top: 5, right: 10, bottom: 5, left: 12),
+                                title: Text(
+                                    "S-Eng.Muhammed Essa",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 18,
+                                      //fontWeight: FontWeight.bold
+                                    ),
+                                    textAlign: TextAlign.left,
+                                    textDirection: TextDirection.ltr,
+                                ),
+                                subtitle: Padding(
+                                padding: const EdgeInsets.only(top:8.0),
+                                  child: Text('Manager of Code for Iraq',
+                               textAlign: TextAlign.left,
+                                   style: TextStyle(
+                                        color: Colors.white,    ), ),
+                                ),),
+                                  ),),
+
+                             Container(height: 126,width: 126,
+                                  decoration: BoxDecoration(
+                                    image:DecorationImage(
+                          image: AssetImage("asset/mohamad.jpg"), fit: BoxFit.cover),
+                                               ),
+                                 ),
+                             ]),
+                            ),
+                              new Container(
+                       margin: EdgeInsets.only(right: 10,left: 10,top:10,bottom: 10   ),
+                  child: new Row(
+                    children: <Widget>[
+                          Expanded(
+                        child: new Divider(
+                          indent: (10),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right:5.0),
+                        child: Text("Developer",
+                            style: TextStyle(
+                              fontSize: 18,
+                            )),
+                      ),
+                    ],
+                  ),),
+                   Container(
+                           margin: EdgeInsets.only(right: 10,left: 10 ,top:7,bottom: 7 ),
+                          width:360,
+                          height: 126,
+                         decoration: BoxDecoration(
+                             color: Color(0xff1F2932),
+                             boxShadow: [BoxShadow(
+                                 offset: Offset(2,4),
+                                 color: Colors.black45,
+                                 blurRadius: 5
+                               )]
+                         ),
+                          child:Row(mainAxisSize: MainAxisSize.max,
+                              children: [
+                           Expanded(child: Container(height: 126,width: 15,
+                          color:Color(0xffFFA500),
+                                
+                                            ),
+                                            ),
+                             
+                                Container(height: 126,width: 202,
+                                  child: Center(
+                                    child: ListTile(
+                                contentPadding: EdgeInsets.only(
+                                      top: 5, right: 10, bottom: 5, left: 12),
+                                title: Text(
+                                    "Mustafa Abdallah",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 18,
+                                      //fontWeight: FontWeight.bold
+                                    ),
+                                    textAlign: TextAlign.left,
+                                    textDirection: TextDirection.ltr,
+                                ),
+                                subtitle: Padding(
+                                padding: const EdgeInsets.only(top:8.0),
+                                  child: Text('UI UX Designers / Website Designers',
+                               textAlign: TextAlign.left,
+                                   style: TextStyle(
+                                        color: Colors.white,    ), ),
+                                ),),
+                                  ),),
+
+                             Container(height: 126,width: 126,
+                                  decoration: BoxDecoration(
+                                    image:DecorationImage(
+                          image: AssetImage("asset/mostafa.jpg"), fit: BoxFit.cover),
+                                               ),
+                                 ),
+                             ]),
+                            ),
+                             Container(
+                        margin: EdgeInsets.only(right: 10,left: 10,top:7,bottom: 7   ),
+                          width:360,
                           height: 126,
                            decoration: BoxDecoration(
                              color: Color(0xff1F2932),
@@ -217,8 +308,8 @@ class AboutState extends State<About> {
                             ),
                            
                              Container(
-                          margin:   EdgeInsets.all(7.0),
-                          width:370,
+                        margin: EdgeInsets.only(right: 10,left: 10,top:7,bottom: 7   ),
+                          width:360,
                           height: 126,
                            decoration: BoxDecoration(
                              color: Color(0xff1F2932),
@@ -243,7 +334,7 @@ class AboutState extends State<About> {
                                 contentPadding: EdgeInsets.only(
                                         top: 5, right: 10, bottom: 5, left: 12),
                                 title: Text(
-                                      "Shahla Abd",
+                                      "S-Eng.Shahla Abd",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 18,
@@ -271,8 +362,8 @@ class AboutState extends State<About> {
                                  ),
                              ]),),
                               Container(
-                          margin:   EdgeInsets.all(7.0),
-                          width:370,
+                        margin: EdgeInsets.only(right: 10,left: 10,top:7,bottom: 7   ),
+                          width:360,
                           height: 126,
                            decoration: BoxDecoration(
                              color: Color(0xff1F2932),
@@ -320,9 +411,30 @@ class AboutState extends State<About> {
                                                ),
                                  ),
                              ]),),
+                               new Container(
+                           margin: EdgeInsets.only(right: 10,left: 10,top:10,bottom: 10   ),
+                           child: new Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: new Divider(
+                          indent: (10),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right:5.0),
+                        child: Text("Information gathering",
+                            style: TextStyle(
+                              fontSize: 18,
+                            )),
+                      ),
+                    ],
+                  ),
+                 
+                ),
+                // ++++++++++++++++++++++++
                               Container(
-                          margin:   EdgeInsets.all(7.0),
-                          width:370,
+                           margin: EdgeInsets.only(right: 10,left: 10,top:7,bottom: 7   ),
+                          width:360,
                           height: 126,
                            decoration: BoxDecoration(
                              color: Color(0xff1F2932),
@@ -346,7 +458,7 @@ class AboutState extends State<About> {
                                 contentPadding: EdgeInsets.only(
                                       top: 5, right: 10, bottom: 5, left: 12),
                                 title: Text(
-                                    "D.Ahmad Hainy",
+                                    "Dr.Eng.Ahmad Hainy",
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 18,
@@ -357,7 +469,7 @@ class AboutState extends State<About> {
                                 ),
                                 subtitle: Padding(
                                   padding: const EdgeInsets.only(top:8.0),
-                                  child: Text('Designer-UI/UX', 
+                                  child: Text('Information gathering', 
                                textAlign: TextAlign.left,
                                    style: TextStyle(
                                         color: Colors.white,    ), ),
@@ -368,6 +480,170 @@ class AboutState extends State<About> {
                                   decoration: BoxDecoration(
                                     image:DecorationImage(
                           image: AssetImage("asset/D_ahmad.jpg"), fit: BoxFit.cover),
+                                 
+                                               ),
+                                 ),
+                             ]),), 
+                            //  ++++++++++++++++++++++++++
+                             
+
+
+                            //  +++++++++++++++++++++++++++
+                               Container(
+                           margin: EdgeInsets.only(right: 10,left: 10,top:7,bottom: 7   ),
+                          width:360,
+                          height: 126,
+                           decoration: BoxDecoration(
+                             color: Color(0xff1F2932),
+                             boxShadow: [BoxShadow(
+                                 offset: Offset(2,4),
+                                 color: Colors.black45,
+                                 blurRadius: 5
+                               )]
+                         ),
+                          child:Row(mainAxisSize: MainAxisSize.max,
+                              children: [
+                           Expanded(child: Container(height: 126,width: 15,
+                           color:Color(0xffFFA500),
+                                
+                                            ),
+                                            ),
+                             
+                                Container(height: 126,width: 202,
+                                  child: Center(
+                                    child: ListTile(
+                                contentPadding: EdgeInsets.only(
+                                      top: 5, right: 10, bottom: 5, left: 12),
+                                title: Text(
+                                    "Eng.Ahmed Rajab",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 18,
+                                      //fontWeight: FontWeight.bold
+                                    ),
+                                    textAlign: TextAlign.left,
+                                    textDirection: TextDirection.ltr,
+                                ),
+                                subtitle: Padding(
+                                  padding: const EdgeInsets.only(top:8.0),
+                                  child: Text('Information gathering', 
+                               textAlign: TextAlign.left,
+                                   style: TextStyle(
+                                        color: Colors.white,    ), ),
+                                ),),
+                                  ),),
+
+                             Container(height: 126,width: 126,
+                                  decoration: BoxDecoration(
+                                    image:DecorationImage(
+                          image: AssetImage("asset/user.jpg"), fit: BoxFit.cover),
+                                 
+                                               ),
+                                 ),
+                             ]),),  
+
+                            //  +++++++++++
+                               Container(
+                           margin: EdgeInsets.only(right: 10,left: 10,top:7,bottom: 7   ),
+                          width:360,
+                          height: 126,
+                           decoration: BoxDecoration(
+                             color: Color(0xff1F2932),
+                             boxShadow: [BoxShadow(
+                                 offset: Offset(2,4),
+                                 color: Colors.black45,
+                                 blurRadius: 5
+                               )]
+                         ),
+                          child:Row(mainAxisSize: MainAxisSize.max,
+                              children: [
+                           Expanded(child: Container(height: 126,width: 15,
+                           color:Color(0xffFFA500),
+                                
+                                            ),
+                                            ),
+                             
+                                Container(height: 126,width: 202,
+                                  child: Center(
+                                    child: ListTile(
+                                contentPadding: EdgeInsets.only(
+                                      top: 5, right: 10, bottom: 5, left: 12),
+                                title: Text(
+                                    "Eng.Lubna Ahmed",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 18,
+                                      //fontWeight: FontWeight.bold
+                                    ),
+                                    textAlign: TextAlign.left,
+                                    textDirection: TextDirection.ltr,
+                                ),
+                                subtitle: Padding(
+                                  padding: const EdgeInsets.only(top:8.0),
+                                  child: Text('Information gathering', 
+                               textAlign: TextAlign.left,
+                                   style: TextStyle(
+                                        color: Colors.white,    ), ),
+                                ),),
+                                  ),),
+
+                             Container(height: 126,width: 126,
+                                  decoration: BoxDecoration(
+                                    image:DecorationImage(
+                          image: AssetImage("asset/user.jpg"), fit: BoxFit.cover),
+                                 
+                                               ),
+                                 ),
+                             ]),), 
+                              //  ++++++++++
+                                Container(
+                           margin: EdgeInsets.only(right: 10,left: 10,top:7,bottom: 7   ),
+                          width:360,
+                          height: 126,
+                           decoration: BoxDecoration(
+                             color: Color(0xff1F2932),
+                             boxShadow: [BoxShadow(
+                                 offset: Offset(2,4),
+                                 color: Colors.black45,
+                                 blurRadius: 5
+                               )]
+                         ),
+                          child:Row(mainAxisSize: MainAxisSize.max,
+                              children: [
+                           Expanded(child: Container(height: 126,width: 15,
+                           color:Color(0xffFFA500),
+                                
+                                            ),
+                                            ),
+                             
+                                Container(height: 126,width: 202,
+                                  child: Center(
+                                    child: ListTile(
+                                contentPadding: EdgeInsets.only(
+                                      top: 5, right: 10, bottom: 5, left: 12),
+                                title: Text(
+                                    "Eng.Farah Ali",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 18,
+                                      //fontWeight: FontWeight.bold
+                                    ),
+                                    textAlign: TextAlign.left,
+                                    textDirection: TextDirection.ltr,
+                                ),
+                                subtitle: Padding(
+                                  padding: const EdgeInsets.only(top:8.0),
+                                  child: Text('Information gathering', 
+                               textAlign: TextAlign.left,
+                                   style: TextStyle(
+                                        color: Colors.white,    ), ),
+                                ),),
+                                  ),),
+
+                             Container(height: 126,width: 126,
+                                  decoration: BoxDecoration(
+                                    image:DecorationImage(
+                          image: AssetImage("asset/user.jpg"), fit: BoxFit.cover),
                                  
                                                ),
                                  ),

@@ -40,32 +40,7 @@ class PlaceWidget extends StatelessWidget {
                              left: 10,
                              child:Text(title,style: TextStyle(fontSize: 20,color: Colors.white),)
                              ,)
-            // Positioned(
-            //   bottom: 1,
-            //                   height: 50,
-            //   child: Container(
-            //     // color: Colors.black,
-            //     height: 120,
-            //     child:Stack(children: [
-            //       Padding(
-            //         padding: const EdgeInsets.only(top:2.0,left: 8.0,right: 8.0,bottom:6.0 ),
-            //    child: Container( width: 20,height: 80,
-            //      decoration: BoxDecoration(color:Colors.red,
-            //                           borderRadius: BorderRadius.only(
-            //                           bottomLeft:Radius.circular(15.0) ,
-            //                          ),
-            //                                   ),),),
-             
-            //      Padding(
-            //        padding: const EdgeInsets.only(top:6,left: 13,),
-            //        child: Text(
-            //                   title,
-            //                   textAlign: TextAlign.right,
-            //                   style: TextStyle(fontSize: 20,color: Colors.white),)
-            //                 ),
-            //     ],)
-            
-            //     ),),
+           
             ],
                  ),
     );

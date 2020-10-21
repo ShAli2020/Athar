@@ -50,6 +50,8 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - asset/babal.jpg
+    - asset/mostafa.jpg
+    - asset/user.jpg
     - asset/logo.png
     - asset/D_ahmad.jpg
     - asset/mohamad.jpg
